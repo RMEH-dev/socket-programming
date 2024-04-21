@@ -1,4 +1,4 @@
-package v2;
+package v3;
 
 import java.io.DataInputStream;
 import java.io.IOException;
@@ -13,7 +13,7 @@ public class server {
         // 1 port -> 1 process only
 
         ServerSocket serverSocket = new ServerSocket(5555);
-        System.out.println("listening for v2.client connection on port 5555");
+        System.out.println("listening for v3.client connection on port 5555");
         Socket socket = serverSocket.accept();
 
         System.out.println("Client connected");
@@ -24,7 +24,7 @@ public class server {
         String message = "";
         while (!message.equals("stop")){
             message = dataInputStream.readUTF();
-            System.out.println("v2.client says " + message);
+            System.out.println("v3.client says: " + message);
         }
 //        serverSocket.close();
     }
