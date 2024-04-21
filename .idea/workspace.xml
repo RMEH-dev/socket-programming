@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52547a7e-8f68-4497-8a4a-83eab53d8e41" name="Changes" comment="Socket">
-      <change afterPath="$PROJECT_DIR$/src/v3/client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/v3/server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v4/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v4/server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/v2/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/v2/client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/v2/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/v2/server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +40,15 @@
     "Application.server.executor": "Run",
     "Application.v3.client.executor": "Run",
     "Application.v3.server.executor": "Run",
+    "Application.v4.client.executor": "Run",
+    "Application.v4.server.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/IT tutorials/BSc (Hons) IT/IT Level 3/System Integration Technologies/socket-programming/src/v3",
+    "last_opened_file_path": "D:/IT tutorials/BSc (Hons) IT/IT Level 3/System Integration Technologies/socket-programming/src/v4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,6 +60,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IT tutorials\BSc (Hons) IT\IT Level 3\System Integration Technologies\socket-programming\src\v4" />
       <recent name="D:\IT tutorials\BSc (Hons) IT\IT Level 3\System Integration Technologies\socket-programming\src\v3" />
       <recent name="D:\IT tutorials\BSc (Hons) IT\IT Level 3\System Integration Technologies\socket-programming\src\v2" />
     </key>
@@ -113,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713712361015</updated>
-      <workItem from="1713712362264" duration="4912000" />
+      <workItem from="1713712362264" duration="6930000" />
     </task>
     <task id="LOCAL-00001" summary="Socket">
       <option name="closed" value="true" />
