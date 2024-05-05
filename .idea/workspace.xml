@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52547a7e-8f68-4497-8a4a-83eab53d8e41" name="Changes" comment="Socket">
-      <change afterPath="$PROJECT_DIR$/src/v4/client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/v4/server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v5/client1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v5/client2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v5/server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v6/client1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v6/client2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v6/server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v6/serverClientThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,9 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2fPp2Koqs4OkGe3NbFRq7OU8Iev" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,18 +42,21 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.client.executor": "Run",
+    "Application.client1.executor": "Run",
+    "Application.client2.executor": "Run",
     "Application.server.executor": "Run",
     "Application.v3.client.executor": "Run",
     "Application.v3.server.executor": "Run",
     "Application.v4.client.executor": "Run",
     "Application.v4.server.executor": "Run",
+    "Application.v5.server.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/IT tutorials/BSc (Hons) IT/IT Level 3/System Integration Technologies/socket-programming/src/v4",
+    "last_opened_file_path": "D:/IT tutorials/BSc (Hons) IT/IT Level 3/System Integration Technologies/New folder/socket-programming/socket-programming",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,18 +68,32 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IT tutorials\BSc (Hons) IT\IT Level 3\System Integration Technologies\socket-programming\src\v6" />
       <recent name="D:\IT tutorials\BSc (Hons) IT\IT Level 3\System Integration Technologies\socket-programming\src\v4" />
       <recent name="D:\IT tutorials\BSc (Hons) IT\IT Level 3\System Integration Technologies\socket-programming\src\v3" />
       <recent name="D:\IT tutorials\BSc (Hons) IT\IT Level 3\System Integration Technologies\socket-programming\src\v2" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="v2.client" />
+  <component name="RunManager" selected="Application.v6.client2">
+    <configuration name="client1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="v5.client1" />
       <module name="socket-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="v2.*" />
+          <option name="PATTERN" value="v5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="client2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="v5.client2" />
+      <module name="socket-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="v5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,11 +102,37 @@
       </method>
     </configuration>
     <configuration name="server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="v2.server" />
+      <option name="MAIN_CLASS_NAME" value="v6.server" />
       <module name="socket-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="v2.*" />
+          <option name="PATTERN" value="v6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="v6.client1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="v6.client1" />
+      <module name="socket-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="v6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="v6.client2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="v6.client2" />
+      <module name="socket-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="v6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,8 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.client" />
+        <item itemvalue="Application.v6.client2" />
+        <item itemvalue="Application.v6.client1" />
         <item itemvalue="Application.server" />
+        <item itemvalue="Application.client2" />
+        <item itemvalue="Application.client1" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +165,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713712361015</updated>
-      <workItem from="1713712362264" duration="6930000" />
+      <workItem from="1713712362264" duration="7546000" />
+      <workItem from="1714884943826" duration="4013000" />
     </task>
     <task id="LOCAL-00001" summary="Socket">
       <option name="closed" value="true" />
